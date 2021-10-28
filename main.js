@@ -189,7 +189,8 @@ console.log(pedido);
 // Despedida
 alert("Gracias por comprar adios!");
 
+// Muestra de pedido por pantalla
 let presupuesto = document.getElementById("presupuesto");
 let contenidoPedido = document.createElement("div");
-contenidoPedido.innerHTML = "<h1>Pedido registrado</h1> <br>"+pedido.cantidadRemeras+" remeras $"+pedido.montoRemeras+"<br>"+pedido.cantidadPantalones+" pantalones $"+pedido.montoPantalones+"<br>"+pedido.cantidadZapatillas+" zapatillas $"+pedido.montoZapatillas+"<br>TOTAL: $"+pedido.montoTotal;
+contenidoPedido.innerHTML = "<h1>Pedido registrado</h1> <br>"+pedido.cantidadRemeras+" remeras $"+pedido.montoRemeras+"<br>"+pedido.cantidadPantalones+" pantalones $"+pedido.montoPantalones+"<br>"+pedido.cantidadZapatillas+" zapatillas $"+pedido.montoZapatillas+"<br><strong>TOTAL:</strong> $"+pedido.montoTotal;
 presupuesto.appendChild(contenidoPedido);
