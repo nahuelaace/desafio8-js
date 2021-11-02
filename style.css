@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+
+
+.btn-pedido{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 52, 153);
+    border: 1px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0% auto;
+}
+
+.presupuesto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
